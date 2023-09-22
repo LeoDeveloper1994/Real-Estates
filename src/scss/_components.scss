@@ -1,0 +1,82 @@
+// Sidebar:
+
+.sidebar-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  position: absolute;
+  z-index: 9999;
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0)),
+    url('../assets/sidebar_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .top-sidebar {
+    width: 100%;
+    height: 101px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .contact-sidebar-container {
+      height: 59px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      padding-left: 30px;
+      font-size: 1.2rem;
+      color: var(--white-base);
+
+      .phone {
+        font-size: 1rem;
+      }
+    }
+
+    .menu-sidebar-container {
+      width: 59px;
+      height: 59px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--red-shadow);
+      padding: 0px 15px;
+
+      i {
+        color: var(--red-shadow);
+        font-size: x-large;
+      }
+    }
+  }
+
+  .list-sidebar-container {
+    width: 100%;
+    padding: 25px 0px 25px 50px;
+    color: var(--white-base);
+    background-color: rgba(0, 0, 0, 0.4);
+
+    ul {
+      font-size: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+  }
+}
+
+.sidebar-open {
+  top: 0;
+  left: 0;
+  transition: all ease-in 300ms;
+}
+
+.sidebar-closed {
+  top: 0;
+  left: 100%;
+  transition: all ease-in 300ms;
+}
