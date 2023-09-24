@@ -1,3 +1,100 @@
+@use 'mixins' as mix;
+
+// layout:
+
+.layout-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  header {
+    width: 100%;
+    height: 101px;
+    padding: 20px 0px;
+    font-weight: 500;
+
+    nav {
+      width: 100%;
+      height: 100%;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo-container {
+        height: 61px;
+        display: flex;
+        gap: 10px;
+
+        .logo-icon-container {
+          width: 61px;
+          height: 61px;
+          background-color: var(--red-shadow);
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .logo-name-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          font-weight: 600;
+
+          .first-span {
+            font-size: 0.5rem;
+            letter-spacing: 2px;
+          }
+
+          .second-span {
+            font-size: 0.9rem;
+          }
+
+          .tirth-span {
+            font-size: 0.8rem;
+          }
+        }
+      }
+
+
+      .menu-container{
+        width: 59px;
+        height: 59px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border: 1px solid var(--red-shadow);
+        padding: 0px 15px;
+
+        .first-bar {
+          width: 14px;
+          align-self: flex-end;
+        }
+
+        span {
+          width: 28px;
+          height: 2px;
+          background-color: var(--red-shadow);
+        }
+      }
+    }
+  }
+
+  .workspace {
+    width: 100%;
+    height: calc(100% - 101px);
+    overflow-y: auto;
+  }
+}
+
+
 // Sidebar:
 
 .sidebar-container {
@@ -28,11 +125,14 @@
       align-items: center;
       gap: 40px;
       padding-left: 30px;
-      font-size: 1.2rem;
       color: var(--white-base);
 
+      i {
+        font-size: 1.4rem;
+      }
+
       .phone {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
     }
 
@@ -61,10 +161,13 @@
     background-color: rgba(0, 0, 0, 0.4);
 
     ul {
-      font-size: 1.2rem;
       display: flex;
       flex-direction: column;
       gap: 3rem;
+
+      li {
+        font-size: 1.4rem;
+      }
     }
   }
 }
@@ -79,4 +182,205 @@
   top: 0;
   left: 100%;
   transition: all ease-in 300ms;
+}
+
+// Forms:
+
+// -- Sell form:
+
+.sell-form {
+  width: 100%;
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  gap: 30px;
+
+  input {
+    border-bottom: 1px solid var(--black-base) ;
+    padding: 0 0 30px 10px;
+    color: var(--black-base);
+    font-weight: 600;
+
+    &::placeholder {
+      color: var(--red-shadow);
+      font-weight: 500;
+    }
+  }
+
+  div {
+    border-bottom: 1px solid var(--black-base);
+    padding: 0 0 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    p {
+      color: var(--red-shadow);
+      font-weight: 500;
+    }
+
+    select {
+      width: 100%;
+      align-self: flex-end;
+    }
+  }
+
+  button {
+    @include mix.general-cto(var(--black-base), var(--red-shadow), var(--black-base));
+  }
+}
+
+// Footer:
+
+.footer-container {
+  width: 100%;
+  padding-top: 80px;
+  position: relative;
+
+  .footer-bg-container {
+    width: 100%;
+    height: 700px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: bottom center;
+    }
+  }
+
+  .footer-info-container {
+    width: 95%;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    .footer-logo-container {
+      width: 100%;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      color: var(--white-base);
+
+      .footer-img-container{
+        width: 100px;
+        height: 100px;
+        background-color: var(--red-shadow);
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .footer-name-container {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2px;
+
+          .first-span {
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+          }
+
+          .second-span {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+
+          .tirth-span {
+            font-size: 1.2rem;
+          }
+      }
+    }
+
+    .footer-contact-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: var(--white-base);
+
+      p {
+
+        &:nth-child(even) {
+          font-size: 1.2rem;
+          margin-bottom: 10px;
+        }
+
+        &:nth-child(odd) {
+          margin-bottom: 5px;
+        }
+      }
+
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        @include mix.general-cto(var(--white-base), var(--red-shadow), var(--white-base));
+      }
+    }
+
+    .footer-info {
+      width: 100%;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .footer-services {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        .service-name {
+          width: 70px;
+
+          p {
+            font-weight: 600;
+            font-size: 0.8rem;
+          }
+        }
+
+        span {
+          width: 1px;
+          border-left: 2px solid var(--red-shadow);
+        }
+
+        .services-list {
+          width: 70px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          p {
+            font-size: 0.7rem;
+
+            &:hover {
+              color: var(--red-shadow);
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .privacy-container {
+        p {
+          text-align: center;
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
 }

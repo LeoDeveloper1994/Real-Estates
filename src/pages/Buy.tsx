@@ -1,5 +1,11 @@
+import Layout from '../components/layout/Layout';
+
 const Buy = () => {
-  return <div>Buy</div>;
+  return (
+    <Layout>
+      <div>Buy</div>
+    </Layout>
+  );
 };
 
 export default Buy;

@@ -1,0 +1,20 @@
+@mixin general-cto ($txt, $primary, $secondary) {
+  position: relative;
+  padding: 17px 20px;
+  margin-top: 30px;
+  font-weight: 700;
+  color: $txt;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, $secondary, $primary);
+    border-image-slice: 1;
+  }
+}

@@ -1,5 +1,11 @@
+import Layout from '../components/layout/Layout';
+
 const Investment = () => {
-  return <div>Investment</div>;
+  return (
+    <Layout>
+      <div>Investment</div>
+    </Layout>
+  );
 };
 
 export default Investment;

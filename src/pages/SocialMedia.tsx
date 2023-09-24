@@ -1,5 +1,11 @@
+import Layout from '../components/layout/Layout';
+
 const SocialMedia = () => {
-  return <div>SocialMedia</div>;
+  return (
+    <Layout>
+      <div>SocialMedia</div>
+    </Layout>
+  );
 };
 
 export default SocialMedia;

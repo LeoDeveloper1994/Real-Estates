@@ -1,5 +1,11 @@
+import Layout from '../components/layout/Layout';
+
 const Team = () => {
-  return <div>Team</div>;
+  return (
+    <Layout>
+      <div>Team</div>
+    </Layout>
+  );
 };
 
 export default Team;
