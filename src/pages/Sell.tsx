@@ -11,7 +11,7 @@ const Sell = () => {
           VENDER TU <span>PROPIEDAD?</span>
         </h1>
         <figcaption>
-          ¿Pensando en vender su propiedad? Es importante saber cuánto vale su propiedad en el mercado actual para
+          ¿Pensando en vender tu propiedad? Es importante saber cuánto vale su propiedad en el mercado actual para
           elegir un precio de venta adecuado.
         </figcaption>
         <div className="sell-img-container">

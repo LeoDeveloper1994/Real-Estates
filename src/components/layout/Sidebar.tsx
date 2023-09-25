@@ -33,6 +33,8 @@ const Sidebar = (props: Props) => {
           <li onClick={() => navigate('/buy')}>COMPRA</li>
           <li onClick={() => navigate('/sell')}>VENDE</li>
           <li onClick={() => navigate('/investment')}>INVIERTE</li>
+          <li onClick={() => navigate('/team')}>ALIADOS</li>
+          <li onClick={() => navigate('/socialmedia')}>REDES</li>
           <li onClick={() => navigate('/about')}>NOSOTROS</li>
           <li onClick={() => navigate('/contact')}>CONTACTO</li>
         </ul>
