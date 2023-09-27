@@ -260,7 +260,7 @@ export const houses = [
       exterior: 'Piscina comunitaria, gimnasio, estacionamiento',
     },
     imagenes: [
-      'https://images.unsplash.com/photo-1587094313669-faf7668ed8a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
+      'https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1956&q=80',
     ],
   },
   {
@@ -284,7 +284,7 @@ export const houses = [
       exterior: 'Jardín, terraza, garaje para 2 autos',
     },
     imagenes: [
-      'https://images.unsplash.com/photo-1611602132416-da2045990f76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
     ],
   },
   {
@@ -332,7 +332,7 @@ export const houses = [
       exterior: 'Piscina comunitaria, gimnasio, estacionamiento subterráneo',
     },
     imagenes: [
-      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
+      'https://images.unsplash.com/photo-1519236282064-01649736e20b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1926&q=80',
     ],
   },
   {
@@ -356,7 +356,7 @@ export const houses = [
       exterior: 'Jardín, terraza con asador, cochera para 2 autos',
     },
     imagenes: [
-      'https://images.unsplash.com/photo-1625603736199-775425d2890a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1594817974283-1ca24fbd6ea3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
     ],
   },
   {
@@ -428,7 +428,7 @@ export const houses = [
       exterior: 'Jardín, terraza con asador, cochera para 2 autos',
     },
     imagenes: [
-      'https://images.unsplash.com/photo-1585544314038-a0d3769d0193?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1579627559219-4d47bcb52988?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
     ],
   },
   {
@@ -476,7 +476,7 @@ export const houses = [
       exterior: 'Balcón, alberca comunitaria',
     },
     imagenes: [
-      'https://images.unsplash.com/photo-1611602132416-da2045990f76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1628744448839-a475cc0e90c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
     ],
   },
 ];
