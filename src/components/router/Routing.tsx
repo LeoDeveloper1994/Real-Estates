@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { About, Buy, Contact, Home, Investment, Sell, SocialMedia, Team } from '../../pages';
+import HouseDetail from '../../pages/HouseDetail';
 
 const Routing = () => {
   return (
@@ -7,6 +8,7 @@ const Routing = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/buy" element={<Buy />} />
+        <Route path="/buy/:id" element={<HouseDetail />} />
         <Route path="/sell" element={<Sell />} />
         <Route path="/team" element={<Team />} />
         <Route path="/investment" element={<Investment />} />

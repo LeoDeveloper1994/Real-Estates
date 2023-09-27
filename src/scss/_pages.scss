@@ -1,3 +1,5 @@
+@use 'mixins' as mix;
+
 // Home:
 
 .video-container {
@@ -16,6 +18,50 @@
   video {
     width: 100%;
     height: 100%;
+  }
+}
+
+// Buy:
+
+.buy-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  p {
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  h1 {
+    line-height: 50px;
+    margin-bottom: 32px;
+    font-size: 3.8rem;
+    font-family: var(--review);
+    font-weight: 700;
+
+    span {
+      background: linear-gradient(to right, #000, var(--red-shadow));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      line-height: 50px;
+      margin-bottom: 32px;
+      font-size: 3.8rem;
+      font-family: var(--review);
+      font-weight: 700;
+    }
+  }
+
+  .houses-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
   }
 }
 
@@ -176,3 +222,221 @@
     }
   }
 }
+
+
+// About :
+
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  p {
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  h1 {
+    line-height: 50px;
+    margin-bottom: 32px;
+    font-size: 3.8rem;
+    font-family: var(--review);
+    font-weight: 700;
+
+    span {
+      background: linear-gradient(to right, #000, var(--red-shadow));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      line-height: 50px;
+      margin-bottom: 32px;
+      font-size: 3.8rem;
+      font-family: var(--review);
+      font-weight: 700;
+    }
+  }
+
+  figcaption {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 600;
+  }
+
+  button {
+    width: 234.31px;
+    @include mix.general-cto(var(--black-base), var(--red-shadow), var(--black-base));
+  }
+
+  .about-img-container {
+    width: 325px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0)), url('../assets/about_team.jpg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .about-logo-container {
+      height: 61px;
+      display: flex;
+      gap: 10px;
+
+      .logo-icon-container {
+        width: 61px;
+        height: 61px;
+        background-color: var(--red-shadow);
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .logo-name-container {
+        height: 61px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: var(--white-base);
+
+        .first-span {
+          font-size: 0.5rem;
+          letter-spacing: 2px;
+        }
+
+        .second-span {
+          font-size: 0.9rem;
+        }
+
+        .tirth-span {
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .about-quickly {
+      margin-left: 5px;
+      padding-left: 10px;
+      border-left: 2px solid var(--red-shadow);
+      p {
+        color: var(--white-base);
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+// Investment:
+
+.investment-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  p {
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  h1 {
+    line-height: 50px;
+    margin-bottom: 32px;
+    font-size: 3.8rem;
+    font-family: var(--review);
+    font-weight: 700;
+
+    span {
+      background: linear-gradient(to right, #000, var(--red-shadow));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      line-height: 50px;
+      margin-bottom: 32px;
+      font-size: 3.8rem;
+      font-family: var(--review);
+      font-weight: 700;
+    }
+  }
+
+  figcaption {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 600;
+  }
+
+  .investment-img-container {
+    width: 325px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0)), url('../assets/bussines_man.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .investment-logo-container {
+      height: 61px;
+      display: flex;
+      gap: 10px;
+
+      .logo-icon-container {
+        width: 61px;
+        height: 61px;
+        background-color: var(--red-shadow);
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .logo-name-container {
+        height: 61px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: var(--white-base);
+
+        .first-span {
+          font-size: 0.5rem;
+          letter-spacing: 2px;
+        }
+
+        .second-span {
+          font-size: 0.9rem;
+        }
+
+        .tirth-span {
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .investment-quickly {
+      margin-left: 5px;
+      padding-left: 10px;
+      border-left: 2px solid var(--red-shadow);
+      p {
+        color: var(--white-base);
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+
