@@ -1,3 +1,5 @@
+import { useNavigate } from 'react-router-dom';
+
 interface Ubicacion {
   direccion: string;
   fraccionamiento: string;
@@ -29,12 +31,17 @@ interface House {
 
 interface Props {
   data: House;
+  houseId: number;
 }
 
 const HouseCard = (props: Props) => {
-  const { data } = props;
+  const { data, houseId } = props;
+
+  const navigate = useNavigate();
 
   const { caracteristicas_principales, ubicacion, imagenes } = data;
+
+  const { precio, recamaras, baños_completos, baños_medios, terreno } = caracteristicas_principales;
 
   return (
     <div className="card-container">
@@ -45,8 +52,12 @@ const HouseCard = (props: Props) => {
           <h5>CP. {ubicacion.codigo_postal}</h5>
         </div>
         <div className="price-container">
-          <h2>${caracteristicas_principales.precio}</h2>
+          <h2>${precio}</h2>
+          <p>
+            REC {recamaras} | BAÑ {baños_completos} | 1/2 BAÑ {baños_medios} | TR {terreno}
+          </p>
         </div>
+        <button onClick={() => navigate(`/buy/${houseId}`)}>VER DETALLES +</button>
       </div>
       <img src={imagenes[0]} alt="Fachada_casa" />
     </div>

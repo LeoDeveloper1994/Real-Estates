@@ -1,12 +1,9 @@
-import { useNavigate } from 'react-router-dom';
 import HouseCard from '../components/layout/HouseCard';
 import Layout from '../components/layout/Layout';
 import { houses } from '../db/HousesList';
 //import { useState } from 'react';
 
 const Buy = () => {
-  const navigate = useNavigate();
-
   /*
   const [initialIndex, setInitialIndex] = useState(0);
 
@@ -27,8 +24,8 @@ const Buy = () => {
         </h1>
         <div className="houses-card-container">
           {houses.map((house, index: number) => (
-            <div key={index} onClick={() => navigate(`/buy/${index}`)}>
-              <HouseCard data={house} />
+            <div key={index}>
+              <HouseCard data={house} houseId={index} />
             </div>
           ))}
           {/*

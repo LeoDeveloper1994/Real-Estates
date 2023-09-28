@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import classNames from 'classnames';
-import { Dispatch, SetStateAction } from 'react';
+import { Dispatch, SetStateAction, useState } from 'react';
 
 interface Props {
   isOpen: boolean;
@@ -10,11 +10,47 @@ interface Props {
 const Sidebar = (props: Props) => {
   const { isOpen, setIsOpen } = props;
 
+  const [options] = useState([
+    {
+      route: '/buy',
+      name: 'COMPRA',
+    },
+    {
+      route: '/sell',
+      name: 'VENDE',
+    },
+    {
+      route: '/investment',
+      name: 'INVIERTE',
+    },
+    {
+      route: '/team',
+      name: 'ALIADOS',
+    },
+    {
+      route: '/socialmedia',
+      name: 'REDES',
+    },
+    {
+      route: '/about',
+      name: 'NOSOTROS',
+    },
+    {
+      route: '/contact',
+      name: 'CONTACTO',
+    },
+  ]);
+
   const navigate = useNavigate();
 
   const sidebarStatus = {
     'sidebar-open': isOpen,
     'sidebar-closed': !isOpen,
+  };
+
+  const handleNavigation = (route: string) => {
+    setIsOpen(!isOpen);
+    navigate(route);
   };
 
   return (
@@ -30,13 +66,11 @@ const Sidebar = (props: Props) => {
       </div>
       <div className="list-sidebar-container">
         <ul>
-          <li onClick={() => navigate('/buy')}>COMPRA</li>
-          <li onClick={() => navigate('/sell')}>VENDE</li>
-          <li onClick={() => navigate('/investment')}>INVIERTE</li>
-          <li onClick={() => navigate('/team')}>ALIADOS</li>
-          <li onClick={() => navigate('/socialmedia')}>REDES</li>
-          <li onClick={() => navigate('/about')}>NOSOTROS</li>
-          <li onClick={() => navigate('/contact')}>CONTACTO</li>
+          {options.map((option, index) => (
+            <li key={index} onClick={() => handleNavigation(option.route)}>
+              {option.name}
+            </li>
+          ))}
         </ul>
       </div>
     </div>
