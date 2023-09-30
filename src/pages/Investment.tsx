@@ -6,16 +6,15 @@ const Investment = () => {
   return (
     <Layout>
       <figure className="investment-container">
-        <p>COMIENZA Á</p>
+        <p>INVIERTE</p>
         <h1>
-          INVERTIR CON <span>NOSOTROS</span>
+          CON <span>NOSOTROS</span>
         </h1>
         <figcaption>
           En The Eyssautier Team, la inversión inmobiliaria es nuestro enfoque. Contacta con nosotros para descubrir
           oportunidades de inversión personalizadas y probadas que se ajusten a tus objetivos financieros. Estamos aquí
           para ofrecerte una experiencia elegante y exitosa en bienes raíces. ¡Hablemos pronto!
         </figcaption>
-        <GenericForm />
         <div className="investment-img-container">
           <div className="investment-logo-container">
             <div className="logo-icon-container">
@@ -36,6 +35,7 @@ const Investment = () => {
           </div>
         </div>
       </figure>
+      <GenericForm />
     </Layout>
   );
 };

@@ -1,7 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import footer_bg from '../../assets/footer_bg.jpg';
 import logo from '../../assets/Logo.svg';
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="footer-container">
       <div className="footer-bg-container">
@@ -36,9 +39,9 @@ const Footer = () => {
               </div>
               <span></span>
               <div className="services-list">
-                <p>COMPRA</p>
-                <p>VENDE</p>
-                <p>INVIERTE</p>
+                <p onClick={() => navigate('/buy')}>COMPRA</p>
+                <p onClick={() => navigate('/sell')}>VENDE</p>
+                <p onClick={() => navigate('/investment')}>INVIERTE</p>
               </div>
             </div>
             <div className="footer-services">
@@ -47,10 +50,10 @@ const Footer = () => {
               </div>
               <span></span>
               <div className="services-list">
-                <p>WILLIAM EYSSAUTIER</p>
-                <p>ALEJANDRO EYSSAUTIER</p>
-                <p>VALERIA EYSSAUTIER</p>
-                <p>JACQUELINE EYSSAUTIER</p>
+                <p onClick={() => navigate('/team/0')}>WILLIAM EYSSAUTIER</p>
+                <p onClick={() => navigate('/team/1')}>ALEJANDRO EYSSAUTIER</p>
+                <p onClick={() => navigate('/team/3')}>VALERIA EYSSAUTIER</p>
+                <p onClick={() => navigate('/team/4')}>JACQUELINE EYSSAUTIER</p>
               </div>
             </div>
             <div className="privacy-container">

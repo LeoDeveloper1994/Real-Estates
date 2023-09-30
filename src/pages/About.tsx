@@ -1,6 +1,7 @@
 import Layout from '../components/layout/Layout';
 import logo from '../assets/Logo.svg';
 import { useNavigate } from 'react-router-dom';
+import GenericForm from '../components/forms/GenericForm';
 
 const About = () => {
   const navigate = useNavigate();
@@ -13,9 +14,9 @@ const About = () => {
           DE <span>NOSOTROS</span>
         </h1>
         <figcaption>
-          En The Eyssautier Team, la satisfacción del cliente es nuestra prioridad absoluta. Con años de experiencia, hemos
-          forjado una sólida reputación en la industria inmobiliaria, brindando asesoramiento experto y garantizando
-          transacciones sin complicaciones y resultados sobresalientes.
+          En The Eyssautier Team, la satisfacción del cliente es nuestra prioridad absoluta. Con años de experiencia,
+          hemos forjado una sólida reputación en la industria inmobiliaria, brindando asesoramiento experto y
+          garantizando transacciones sin complicaciones y resultados sobresalientes.
         </figcaption>
         <button onClick={() => navigate('/buy')}>LISTA DE PROPIEDADES +</button>
         <button onClick={() => navigate('/contact')}>CONTACTO +</button>
@@ -39,6 +40,7 @@ const About = () => {
           </div>
         </div>
       </figure>
+      <GenericForm />
     </Layout>
   );
 };
