@@ -16,8 +16,8 @@ const Home = () => {
         <video autoPlay muted={!audio} loop>
           <source src={homeVideo} type="video/mp4" />
         </video>
-        <GenericForm />
       </div>
+      <GenericForm />
     </Layout>
   );
 };

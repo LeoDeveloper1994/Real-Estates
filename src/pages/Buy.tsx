@@ -55,6 +55,14 @@ const Buy = () => {
             </button>
           </div>
         </div>
+        <div className="buy-legend-container">
+          <p>
+            Esta información es proporcionada por el propietario de este sitio web. La exactitud de esta información se
+            considera confiable pero no está garantizada y debe verificarse de forma independiente mediante inspección
+            personal y/o con los profesionales adecuados. Los listados presentados aquí pueden o no ser listados por el
+            agente de este sitio web.
+          </p>
+        </div>
       </div>
       <GenericForm />
     </Layout>

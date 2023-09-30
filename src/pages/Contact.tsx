@@ -11,7 +11,7 @@ const Contact = () => {
           CON <span>NOSOTROS</span>
         </h1>
         <figcaption>
-          La diferencia del equipo Umansky: marketing creativo, profesionalismo inquebrantable, tecnología de vanguardia
+          La diferencia de The Eyssautier Team: marketing creativo, profesionalismo inquebrantable, tecnología de vanguardia
           y una experiencia de servicio de conserjería inolvidable. Más de lo mismo nunca es una opción. Trabaja con
           nosotros.
         </figcaption>
@@ -23,15 +23,16 @@ const Contact = () => {
             </div>
             <div className="logo-name-container">
               <span className="first-span">THE</span>
-              <span className="second-span">UMANSKY</span>
+              <span className="second-span">EYSSAUTIER</span>
               <span className="tirth-span">TEAM</span>
             </div>
           </div>
+          <hr />
           <div className="contact-quickly">
             <p>TELEFONO:</p>
             <p>449.165.9373</p>
             <p>EMAIL:</p>
-            <p>umanksy@gmail.com</p>
+            <p>theeyssautier@gmail.com</p>
           </div>
         </div>
       </figure>

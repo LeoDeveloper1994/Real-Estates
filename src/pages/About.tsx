@@ -13,7 +13,7 @@ const About = () => {
           DE <span>NOSOTROS</span>
         </h1>
         <figcaption>
-          En The Umansky Team, la satisfacción del cliente es nuestra prioridad absoluta. Con años de experiencia, hemos
+          En The Eyssautier Team, la satisfacción del cliente es nuestra prioridad absoluta. Con años de experiencia, hemos
           forjado una sólida reputación en la industria inmobiliaria, brindando asesoramiento experto y garantizando
           transacciones sin complicaciones y resultados sobresalientes.
         </figcaption>
@@ -26,15 +26,16 @@ const About = () => {
             </div>
             <div className="logo-name-container">
               <span className="first-span">THE</span>
-              <span className="second-span">UMANSKY</span>
+              <span className="second-span">EYSSAUTIER</span>
               <span className="tirth-span">TEAM</span>
             </div>
           </div>
+          <hr />
           <div className="about-quickly">
             <p>TELEFONO:</p>
             <p>449.165.9373</p>
             <p>EMAIL:</p>
-            <p>umanksy@gmail.com</p>
+            <p>theeyssautier@gmail.com</p>
           </div>
         </div>
       </figure>

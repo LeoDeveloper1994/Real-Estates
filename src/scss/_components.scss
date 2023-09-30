@@ -53,10 +53,11 @@
 
           .second-span {
             font-size: 0.9rem;
+            letter-spacing: 2px;
           }
 
           .tirth-span {
-            font-size: 0.7rem;
+            @extend .first-span;
           }
         }
       }
@@ -531,10 +532,12 @@
           .second-span {
             font-size: 1.5rem;
             font-weight: 500;
+            letter-spacing: 2px;
           }
 
           .tirth-span {
-            font-size: 1.2rem;
+            font-size: 0.7rem;
+            letter-spacing: 2px;
           }
       }
     }

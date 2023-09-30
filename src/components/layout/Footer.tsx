@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           <div className="footer-name-container">
             <span className="first-span">THE</span>
-            <span className="second-span">UMANSKY</span>
+            <span className="second-span">EYSSAUTIER</span>
             <span className="tirth-span">TEAM</span>
           </div>
         </div>
@@ -22,7 +22,7 @@ const Footer = () => {
           <p>TELEFONO:</p>
           <p>449.165.9373</p>
           <p>EMAIL:</p>
-          <p>theumansky@gmail.com</p>
+          <p>theeyssautier@gmail.com</p>
           <a href="https://www.youtube.com/@eyssautierresidencias8020" target="_blank">
             <button>
               <i className="fa-brands fa-youtube"></i>
@@ -43,20 +43,21 @@ const Footer = () => {
             </div>
             <div className="footer-services">
               <div className="service-name">
-                <p>UMANSKY TEAM</p>
+                <p>EYSSAUTIER TEAM</p>
               </div>
               <span></span>
               <div className="services-list">
-                <p>WILLIAM CERVANTES</p>
-                <p>ALEJANDOR CERVANTES</p>
-                <p>VALERIA CERVANTES</p>
+                <p>WILLIAM EYSSAUTIER</p>
+                <p>ALEJANDOR EYSSAUTIER</p>
+                <p>VALERIA EYSSAUTIER</p>
+                <p>JACQUELINE EYSSAUTIER</p>
               </div>
             </div>
             <div className="privacy-container">
               <p>
-                William Cervantes se compromete a brindar un sitio web accesible. Si tiene dificultades para acceder al
+                William Eyssautier se compromete a brindar un sitio web accesible. Si tiene dificultades para acceder al
                 contenido, tiene dificultades para ver un archivo en el sitio web o nota algún problema de
-                accesibilidad, comuníquese con nosotros al 424.230.3701 para especificar la naturaleza del problema de
+                accesibilidad, comuníquese con nosotros al 449.165.9373 para especificar la naturaleza del problema de
                 accesibilidad y cualquier tecnología de asistencia que utilice. Nos esforzamos por proporcionar el
                 contenido que necesita en el formato que necesita.
               </p>
