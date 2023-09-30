@@ -11,7 +11,7 @@ const Buy = () => {
 
   const [parcialList, setParcialList] = useState(houses.slice(firstIndex, secondIndex));
 
-  const [pages] = useState(Math.ceil(houses.length / 10));
+  //const [pages] = useState(Math.ceil(houses.length / 10));
 
   const handlePagination = (action: string) => {
     switch (action) {
