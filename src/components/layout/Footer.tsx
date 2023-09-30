@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="footer-info">
             <div className="footer-services">
               <div className="service-name">
-                <p>BIENES RAICES</p>
+                <p onClick={() => navigate('/buy')}>BIENES RAICES</p>
               </div>
               <span></span>
               <div className="services-list">
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             <div className="footer-services">
               <div className="service-name">
-                <p>EYSSAUTIER TEAM</p>
+                <p onClick={() => navigate('/team')}>EYSSAUTIER TEAM</p>
               </div>
               <span></span>
               <div className="services-list">

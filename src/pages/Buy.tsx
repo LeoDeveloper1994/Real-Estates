@@ -11,8 +11,6 @@ const Buy = () => {
 
   const [parcialList, setParcialList] = useState(houses.slice(firstIndex, secondIndex));
 
-  //const [pages] = useState(Math.ceil(houses.length / 10));
-
   const handlePagination = (action: string) => {
     switch (action) {
       case 'prev':
@@ -44,11 +42,16 @@ const Buy = () => {
             </div>
           ))}
           <div className="pagination-container">
-            <button disabled={firstIndex === 0} onClick={() => handlePagination('prev')}>
+            <button
+              disabled={firstIndex === 0}
+              style={{ opacity: `${firstIndex === 0 ? '0.3' : '1'}` }}
+              onClick={() => handlePagination('prev')}
+            >
               {'<<'} PREV
             </button>
             <button
               disabled={secondIndex === Math.ceil(houses.length / 30) * 30}
+              style={{ opacity: `${secondIndex === Math.ceil(houses.length / 30) * 30 ? '0.3' : '1'}` }}
               onClick={() => handlePagination('next')}
             >
               NEXT {'>>'}

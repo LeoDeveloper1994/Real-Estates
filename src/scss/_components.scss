@@ -605,6 +605,10 @@
 
         .service-name {
           width: 70px;
+          &:hover {
+            cursor: pointer;
+            color: var(--red-shadow);
+          }
 
           p {
             font-weight: 600;

@@ -694,4 +694,173 @@
   }
 }
 
+// Social Media:
+
+.social-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  p {
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  h1 {
+    line-height: 50px;
+    margin-bottom: 32px;
+    font-size: 3.8rem;
+    font-family: var(--review);
+    font-weight: 700;
+
+    span {
+      background: linear-gradient(to right, #000, var(--red-shadow));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      line-height: 50px;
+      margin-bottom: 32px;
+      font-size: 3.8rem;
+      font-family: var(--review);
+      font-weight: 700;
+    }
+  }
+
+  figcaption {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 600;
+    padding: 0px 20px;
+  }
+
+  .insta-galery {
+    margin-top: 50px;
+    padding: 0px 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .item {
+      width: 160px;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      color: var(--white-base);
+      cursor: pointer;
+
+      i {
+        font-size: 2rem;
+      }
+    }
+
+    .galery-item-1 {
+      @include mix.insta-container(var(--white-base), var(--red-shadow), var(--white-base), var(--black-base));
+    }
+
+    .galery-item-2 {
+      background-image: url('https://images.unsplash.com/photo-1520547704200-8bbf59077512?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .galery-item-3 {
+      background-image: url('https://images.unsplash.com/photo-1533049949835-4716d79938e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .galery-item-4 {
+      @include mix.insta-container(var(--red-shadow), var(--white-base), var(--red-shadow), var(--gray-base));
+    }
+
+    .galery-item-5 {
+      @include mix.insta-container(var(--white-base), var(--black-base), var(--white-base), var(--red-shadow));
+    }
+
+    .galery-item-6 {
+      background-image: url('https://images.unsplash.com/photo-1480881483301-1774ad3060bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .social-img-container {
+    width: 325px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0)), url('../assets/bussines_man.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .social-logo-container {
+      height: 61px;
+      display: flex;
+      gap: 10px;
+
+      .logo-icon-container {
+        width: 61px;
+        height: 61px;
+        background-color: var(--red-shadow);
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .logo-name-container {
+        height: 61px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: var(--white-base);
+
+        .first-span {
+          font-size: 0.7rem;
+          letter-spacing: 2px;
+        }
+
+        .second-span {
+          font-size: 0.9rem;
+          letter-spacing: 2px
+        }
+
+        .tirth-span {
+          @extend .first-span;
+        }
+      }
+    }
+
+    hr {
+      width: 100%;
+      border: 1px solid var(--red-shadow);
+    }
+
+    .social-quickly {
+      p {
+        color: var(--white-base);
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
 
