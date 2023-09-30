@@ -48,7 +48,7 @@ const Footer = () => {
               <span></span>
               <div className="services-list">
                 <p>WILLIAM EYSSAUTIER</p>
-                <p>ALEJANDOR EYSSAUTIER</p>
+                <p>ALEJANDRO EYSSAUTIER</p>
                 <p>VALERIA EYSSAUTIER</p>
                 <p>JACQUELINE EYSSAUTIER</p>
               </div>
