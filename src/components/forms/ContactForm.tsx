@@ -17,7 +17,10 @@ const ContactForm = () => {
       <form className="contact-form-container">
         {options.map((option: string, index: number) => (
           <label key={index} onClick={() => setIsChecked(index)}>
-            <input type="radio" checked={isChecked === index} />
+            <input type="radio" checked={isChecked === index} className="radio-btn" />
+            <span className="radio-dot">
+              <div className='radio-center'></div>
+            </span>
             {option}
           </label>
         ))}

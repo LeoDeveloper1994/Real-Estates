@@ -479,4 +479,76 @@ export const houses = [
       'https://images.unsplash.com/photo-1628744448839-a475cc0e90c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
     ],
   },
+  {
+    ubicacion: {
+      direccion: '456 Avenida de Muestra',
+      fraccionamiento: 'Los Laureles',
+      codigo_postal: '65432',
+    },
+    caracteristicas_principales: {
+      precio: '2,000 USD/mes',
+      recamaras: '3',
+      baños_completos: '2',
+      baños_medios: '1',
+      construccion: '150 m²',
+      terreno: '190 m²',
+      tipo: 'Renta',
+    },
+    caracteristicas_generales: 'Departamento moderno con vistas panorámicas.',
+    aditamentos: {
+      interior: 'Cocina gourmet, balcón privado, walk-in closet',
+      exterior: 'Piscina comunitaria, gimnasio, estacionamiento',
+    },
+    imagenes: [
+      'https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1956&q=80',
+    ],
+  },
+  {
+    ubicacion: {
+      direccion: '789 Calle de Muestra',
+      fraccionamiento: 'Los Pájaros',
+      codigo_postal: '98765',
+    },
+    caracteristicas_principales: {
+      precio: '420,000 USD',
+      recamaras: '3',
+      baños_completos: '3',
+      baños_medios: '0',
+      construccion: '210 m²',
+      terreno: '320 m²',
+      tipo: 'Venta',
+    },
+    caracteristicas_generales: 'Casa contemporánea con hermosos detalles de diseño.',
+    aditamentos: {
+      interior: 'Sala de estar, cocina de chef, vestidores',
+      exterior: 'Jardín, terraza, garaje para 2 autos',
+    },
+    imagenes: [
+      'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    ],
+  },
+  {
+    ubicacion: {
+      direccion: '890 Avenida Ejemplo',
+      fraccionamiento: 'Las Palmeras',
+      codigo_postal: '87654',
+    },
+    caracteristicas_principales: {
+      precio: '580,000 USD',
+      recamaras: '5',
+      baños_completos: '4',
+      baños_medios: '1',
+      construccion: '320 m²',
+      terreno: '450 m²',
+      tipo: 'Venta',
+    },
+    caracteristicas_generales: 'Casa de lujo con piscina y vistas panorámicas.',
+    aditamentos: {
+      interior: 'Cuarto de cine, bodega, cuarto de servicio',
+      exterior: 'Piscina, terraza, cochera para 3 autos',
+    },
+    imagenes: [
+      'https://images.unsplash.com/photo-1623961079757-17db3eca3542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2089&q=80',
+    ],
+  },
 ];

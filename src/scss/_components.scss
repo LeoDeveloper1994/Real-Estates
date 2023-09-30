@@ -56,7 +56,7 @@
           }
 
           .tirth-span {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
           }
         }
       }
@@ -339,7 +339,7 @@
 
   h2 {
     text-align: start;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: var(--black-base);
   }
 
@@ -353,9 +353,42 @@
 
     label {
       display: flex;
+      align-items: center;
       gap: 10px;
       color: var(--black-base);
       font-weight: 500;
+
+      .radio-dot {
+        width: 13px;
+        height: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        background-color: var(--gray-base);
+        transition: all ease-in 100ms;
+
+        .radio-center {
+          transform: scale(0);
+          width: 11px;
+          height: 11px;
+          border: 1px solid var(--white-base);
+          border-radius: 100%;
+        }
+      }
+
+      input[type='radio'] {
+        display: none;
+      }
+
+      input[type='radio']:checked + .radio-dot {
+        background-color: var(--red-shadow);
+        transition: all ease-in 100ms;
+
+        .radio-center {
+          transform: scale(100%);
+        }
+      }
     }
 
     .first-input-text {
@@ -384,16 +417,18 @@
 
 // -- Investment form:
 
-.investment-form-area {
+.generic-form-area {
   width: 100%;
+  padding: 0px 20px;
 
   h2 {
     text-align: start;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: var(--black-base);
+    margin-top: 2rem;
   }
 
-  .investment-form-container {
+  .generic-form-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -409,7 +444,7 @@
     }
 
     .first-input-text {
-      margin-top: 5rem;
+      margin-top: 2rem;
     }
 
     input[type='text'] {

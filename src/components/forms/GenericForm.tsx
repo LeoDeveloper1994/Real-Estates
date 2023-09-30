@@ -1,7 +1,8 @@
-const InvestmentForm = () => {
+const GenericForm = () => {
   return (
-    <div className="investment-form-area">
-      <form className="investment-form-container">
+    <div className="generic-form-area">
+      <h2>CONTACTANOS</h2>
+      <form className="generic-form-container">
         <input type="text" placeholder="Nombre" className="first-input-text" />
         <input type="text" placeholder="Apellido" />
         <input type="text" placeholder="Email" />
@@ -13,4 +14,4 @@ const InvestmentForm = () => {
   );
 };
 
-export default InvestmentForm;
+export default GenericForm;

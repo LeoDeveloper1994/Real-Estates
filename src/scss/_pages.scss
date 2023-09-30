@@ -64,9 +64,41 @@
     gap: 35px;
 
     .pagination-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+
       button {
-        @include mix.general-cto(var(--black-base), var(--red-shadow), var(--black-base));
+        color: var(--red-shadow);
       }
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        font-weight: 700;
+        color: var(--black-base);
+        cursor: pointer;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: 2px solid transparent;
+          border-image: linear-gradient(to right, var(--black-base), var(--red-shadow));
+          border-image-slice: 1;
+        }
+      }
+
+
     }
   }
 }
@@ -348,7 +380,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px;
 
   p {
     margin-bottom: 12px;
@@ -379,6 +410,7 @@
     text-transform: uppercase;
     line-height: 30px;
     font-weight: 600;
+    padding: 0px 20px;
   }
 
   .investment-img-container {

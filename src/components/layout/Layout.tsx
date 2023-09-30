@@ -24,7 +24,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
             <div className="logo-name-container">
               <span className="first-span">THE</span>
-              <span className="second-span">UMANSKY</span>
+              <span className="second-span">EYSSAUTIER</span>
               <span className="tirth-span">TEAM</span>
             </div>
           </div>

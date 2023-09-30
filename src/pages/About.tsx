@@ -1,7 +1,10 @@
 import Layout from '../components/layout/Layout';
 import logo from '../assets/Logo.svg';
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+  const navigate = useNavigate();
+
   return (
     <Layout>
       <figure className="about-container">
@@ -14,8 +17,8 @@ const About = () => {
           forjado una sólida reputación en la industria inmobiliaria, brindando asesoramiento experto y garantizando
           transacciones sin complicaciones y resultados sobresalientes.
         </figcaption>
-        <button>LISTA DE PROPIEDADES +</button>
-        <button>CONTACTO +</button>
+        <button onClick={() => navigate('/buy')}>LISTA DE PROPIEDADES +</button>
+        <button onClick={() => navigate('/contact')}>CONTACTO +</button>
         <div className="about-img-container">
           <div className="about-logo-container">
             <div className="logo-icon-container">
