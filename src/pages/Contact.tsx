@@ -1,6 +1,6 @@
 import Layout from '../components/layout/Layout';
 import ContactForm from '../components/forms/ContactForm';
-import logo from '../assets/Logo.svg';
+import logo from '../assets/vector-logo/logo-vector-100.png';
 
 const Contact = () => {
   return (
@@ -11,9 +11,9 @@ const Contact = () => {
           CON <span>NOSOTROS</span>
         </h1>
         <figcaption>
-          La diferencia de The Eyssautier Team: marketing creativo, profesionalismo inquebrantable, tecnología de vanguardia
-          y una experiencia de servicio de conserjería inolvidable. Más de lo mismo nunca es una opción. Trabaja con
-          nosotros.
+          La diferencia de The Eyssautier Team: marketing creativo, profesionalismo inquebrantable, tecnología de
+          vanguardia y una experiencia de servicio de conserjería inolvidable. Más de lo mismo nunca es una opción.
+          Trabaja con nosotros.
         </figcaption>
         <ContactForm />
         <div className="contact-img-container">

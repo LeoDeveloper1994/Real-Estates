@@ -1,5 +1,5 @@
 import Layout from '../components/layout/Layout';
-import logo from '../assets/Logo.svg';
+import logo from '../assets/vector-logo/logo-vector-100.png';
 import GenericForm from '../components/forms/GenericForm';
 
 const SocialMedia = () => {

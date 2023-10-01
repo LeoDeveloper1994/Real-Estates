@@ -1,5 +1,5 @@
 import { ReactNode, useState } from 'react';
-import logo from '../../assets/Logo.svg';
+import logo from '../../assets/vector-logo/logo-vector-100.png';
 import Sidebar from './Sidebar';
 import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
