@@ -47,6 +47,12 @@ const HouseDetail = () => {
     setIndex(selectedIndex);
   };
 
+  const [isVisible, setIsVisible] = useState(false);
+
+  const [inVisible, setInvisible] = useState(false);
+
+  const [outVisible, setOutVisible] = useState(false);
+
   return (
     <Layout>
       <div className="house-detail-container">
@@ -99,8 +105,39 @@ const HouseDetail = () => {
           <div className="house-description-container">
             <p className="description-txt">{house.caracteristicas_generales}</p>
           </div>
+          <div className="modal-cto-container">
+            <button className="modal-cto" onClick={() => setIsVisible(true)}>
+              SOLICITA VISITA +
+            </button>
+          </div>
+          <div className={`modal ${isVisible ? 'modal-opened' : 'modal-closed'}`}>
+            <button className="cto-x" onClick={() => setIsVisible(false)}>
+              <i className="fa-solid fa-xmark"></i>
+            </button>
+            <GenericForm />
+          </div>
+          <div className="features-container">
+            <p>OTRAS</p>
+            <h1>
+              <span>CARACTERISTICAS</span>
+            </h1>
+            <div className="features-list">
+              <div className="features-general">
+                <p className="f-title" onClick={() => setInvisible(!inVisible)}>
+                  INTERIOR <span>{inVisible ? '-' : '+'}</span>
+                </p>
+                <p className={inVisible? 'features-detail-opened' : 'features-detail-closed'}>{house.aditamentos.interior}</p>
+              </div>
+              <div className="features-general">
+                <p className="f-title" onClick={() => setOutVisible(!outVisible)}>
+                  EXTERIOR <span>{outVisible ? '-' : '+'}</span>
+                </p>
+                <p className={outVisible? 'features-detail-opened' : 'features-detail-closed'}>{house.aditamentos.exterior}</p>
+              </div>
+            </div>
+          </div>
+          <GenericForm />
         </div>
-        <GenericForm />
       </div>
     </Layout>
   );

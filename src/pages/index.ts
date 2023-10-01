@@ -1,7 +1,9 @@
 export { default as About } from './About';
+export { default as AgentDetail } from './AgentDetail';
 export { default as Buy } from './Buy';
 export { default as Contact } from './Contact';
 export { default as Home } from './Home';
+export { default as HouseDetail } from './HouseDetail';
 export { default as Investment } from './Investment';
 export { default as Sell } from './Sell';
 export { default as SocialMedia } from './SocialMedia';
