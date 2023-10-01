@@ -1,33 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-
-interface Ubicacion {
-  direccion: string;
-  fraccionamiento: string;
-  codigo_postal: string;
-}
-
-interface Caracteristicas_principales {
-  precio: string;
-  recamaras: string;
-  baños_completos: string;
-  baños_medios: string;
-  construccion: string;
-  terreno: string;
-  tipo: string;
-}
-
-interface Aditamentos {
-  interior: string;
-  exterior: string;
-}
-
-interface House {
-  ubicacion: Ubicacion;
-  caracteristicas_principales: Caracteristicas_principales;
-  caracteristicas_generales: string;
-  aditamentos: Aditamentos;
-  imagenes: string[];
-}
+import { House } from '../../utils/types';
 
 interface Props {
   data: House;
@@ -47,13 +19,13 @@ const HouseCard = (props: Props) => {
     <div className="card-container">
       <div className="img-gradient">
         <div className="ubication-container">
-          <h4>#{ubicacion.direccion}</h4>
-          <h3>{ubicacion.fraccionamiento}</h3>
-          <h5>CP. {ubicacion.codigo_postal}</h5>
+          <h4 className='ub-street'>#{ubicacion.direccion}</h4>
+          <h3 className='ub-hood'>{ubicacion.fraccionamiento}</h3>
+          <h5 className='ub-cp'>CP. {ubicacion.codigo_postal}</h5>
         </div>
         <div className="price-container">
-          <h2>${precio}</h2>
-          <p>
+          <h2 className='price'>${precio}</h2>
+          <p className='card-summary'>
             REC {recamaras} | BAÑ {baños_completos} | 1/2 BAÑ {baños_medios} | TR {terreno}
           </p>
         </div>

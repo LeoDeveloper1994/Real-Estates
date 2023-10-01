@@ -14,13 +14,21 @@ export const houses = [
       terreno: '400 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Amplia casa con jardín y terraza.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina equipada, estudio, cuarto de lavado',
       exterior: 'Jardín trasero, cochera para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1605146769289-440113cc3d00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -38,13 +46,21 @@ export const houses = [
       terreno: '163 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Departamento moderno en zona residencial.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina integral, balcón, walk-in closet',
       exterior: 'Área de juegos infantiles, estacionamiento',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -62,13 +78,21 @@ export const houses = [
       terreno: '500 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Espaciosa casa con piscina y amplios espacios verdes.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Sala de cine, gimnasio, cuarto de servicio',
       exterior: 'Piscina, jardín con asador, cochera para 3 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1628133287836-40bd5453bed1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -86,13 +110,21 @@ export const houses = [
       terreno: '246 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Moderno departamento con hermosa vista panorámica.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina equipada, balcón, lavadora y secadora',
       exterior: 'Área de alberca, estacionamiento subterráneo',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1565145211217-d0f630de0004?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2066&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -110,13 +142,21 @@ export const houses = [
       terreno: '380 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa elegante con piscina y amplia terraza.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Estudio, cuarto de juegos, cuarto de huéspedes',
       exterior: 'Piscina, terraza con vista panorámica, cochera para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1605146768851-eda79da39897?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -134,13 +174,21 @@ export const houses = [
       terreno: '195 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Departamento moderno en zona exclusiva con vista al mar.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina gourmet, terraza privada, walk-in closet',
       exterior: 'Acceso a la playa, gimnasio, estacionamiento privado',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1625602812206-5ec545ca1231?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -158,13 +206,21 @@ export const houses = [
       terreno: '420 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa con piscina y diseño moderno en zona exclusiva.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina de lujo, sala de cine, cuarto de servicio',
       exterior: 'Piscina, jardín exuberante, cochera para 3 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -182,13 +238,21 @@ export const houses = [
       terreno: '230 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Departamento con vista panorámica y comodidades modernas.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina equipada, balcón privado, armarios empotrados',
       exterior: 'Piscina comunitaria, gimnasio, estacionamiento cubierto',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1510266859905-b8835265947d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -206,13 +270,21 @@ export const houses = [
       terreno: '320 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa con jardín y diseño contemporáneo.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cuarto de juegos, cocina gourmet, vestidores',
       exterior: 'Jardín, terraza, cochera para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1628744448839-170bf324f27e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -230,13 +302,21 @@ export const houses = [
       terreno: '400 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa elegante con piscina y amplio jardín.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina equipada, estudio, cuarto de lavado',
       exterior: 'Piscina, terraza, cochera para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1506126279646-a697353d3166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -254,13 +334,21 @@ export const houses = [
       terreno: '190 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Departamento moderno con vistas panorámicas.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina gourmet, balcón privado, walk-in closet',
       exterior: 'Piscina comunitaria, gimnasio, estacionamiento',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1956&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -278,13 +366,21 @@ export const houses = [
       terreno: '320 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa contemporánea con hermosos detalles de diseño.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Sala de estar, cocina de chef, vestidores',
       exterior: 'Jardín, terraza, garaje para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -302,13 +398,21 @@ export const houses = [
       terreno: '450 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa de lujo con piscina y vistas panorámicas.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cuarto de cine, bodega, cuarto de servicio',
       exterior: 'Piscina, terraza, cochera para 3 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1623961079757-17db3eca3542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2089&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -326,13 +430,21 @@ export const houses = [
       terreno: '265 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Departamento de lujo con acabados de alta gama.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina gourmet, balcón privado, vestidores',
       exterior: 'Piscina comunitaria, gimnasio, estacionamiento subterráneo',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1519236282064-01649736e20b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1926&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -350,13 +462,21 @@ export const houses = [
       terreno: '380 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa contemporánea con diseño vanguardista.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Sala de juegos, cocina gourmet, cuarto de lavado',
       exterior: 'Jardín, terraza con asador, cochera para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1594817974283-1ca24fbd6ea3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -374,13 +494,21 @@ export const houses = [
       terreno: '420 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa con piscina y diseño moderno en zona exclusiva.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina equipada, sala de cine, cuarto de servicio',
       exterior: 'Piscina, terraza, cochera para 3 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -398,13 +526,21 @@ export const houses = [
       terreno: '190 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Departamento moderno con vistas panorámicas y comodidades de lujo.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina gourmet, balcón privado, vestidores',
       exterior: 'Piscina comunitaria, gimnasio, estacionamiento subterráneo',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1523809040961-500fcd60697a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fEZyb250JTIwaG91c2V8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=500&q=60',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -422,13 +558,21 @@ export const houses = [
       terreno: '320 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa contemporánea con amplios espacios y detalles elegantes.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cuarto de juegos, cocina gourmet, cuarto de lavado',
       exterior: 'Jardín, terraza con asador, cochera para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1579627559219-4d47bcb52988?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -446,13 +590,21 @@ export const houses = [
       terreno: '300 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Hermosa casa con acabados de lujo y jardín amplio.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina integral, chimenea, closet en recámara principal',
       exterior: 'Patio trasero, cochera para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -470,13 +622,21 @@ export const houses = [
       terreno: '230 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Departamento en excelente ubicación con vista panorámica.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Amueblado, aire acondicionado',
       exterior: 'Balcón, alberca comunitaria',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1628744448839-a475cc0e90c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -494,13 +654,21 @@ export const houses = [
       terreno: '190 m²',
       tipo: 'Renta',
     },
-    caracteristicas_generales: 'Departamento moderno con vistas panorámicas.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cocina gourmet, balcón privado, walk-in closet',
       exterior: 'Piscina comunitaria, gimnasio, estacionamiento',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1956&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -518,13 +686,21 @@ export const houses = [
       terreno: '320 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa contemporánea con hermosos detalles de diseño.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Sala de estar, cocina de chef, vestidores',
       exterior: 'Jardín, terraza, garaje para 2 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
   {
@@ -542,13 +718,21 @@ export const houses = [
       terreno: '450 m²',
       tipo: 'Venta',
     },
-    caracteristicas_generales: 'Casa de lujo con piscina y vistas panorámicas.',
+    caracteristicas_generales:
+      'Esta impresionante casa combina el lujo y la comodidad en una ubicación privilegiada dentro de un tranquilo vecindario residencial. Sus exuberantes jardines y árboles maduros rodean la espaciosa propiedad, creando un ambiente sereno y privado. La elegante fachada presenta detalles arquitectónicos atemporales, mientras que el interior emana calidez y sofisticación con techos altos y una chimenea de mármol en la sala de estar. La cocina gourmet y el comedor formal ofrecen un espacio para grandes reuniones familiares. Las habitaciones, cada una con baño y amplios armarios, incluyen una suite principal con sala de estar privada y baño de lujo. El patio trasero es un oasis con piscina infinita, terraza cubierta y área de juegos, ideal para crear recuerdos familiares inolvidables. Esta casa lujosa es un hogar donde la elegancia y la comodidad se fusionan, brindando un espacio para momentos especiales.',
     aditamentos: {
       interior: 'Cuarto de cine, bodega, cuarto de servicio',
       exterior: 'Piscina, terraza, cochera para 3 autos',
     },
     imagenes: [
       'https://images.unsplash.com/photo-1623961079757-17db3eca3542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2089&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2053&q=80',
+      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80',
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+      'https://images.unsplash.com/photo-1602774895672-b553538bceb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80',
     ],
   },
 ];
