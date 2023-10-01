@@ -1005,13 +1005,12 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-end;
+      padding: 20px;
       background-color: var(--white-base);
 
       .cto-x {
         width: 61px;
         height: 61px;
-        margin-top: 20px;
-        margin-right: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
