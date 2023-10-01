@@ -1,6 +1,6 @@
 import Layout from '../components/layout/Layout';
 import ContactForm from '../components/forms/ContactForm';
-import logo from '../assets/vector-logo/logo-vector-100.png';
+import logo from '../assets/firma 2.png';
 
 const Contact = () => {
   return (

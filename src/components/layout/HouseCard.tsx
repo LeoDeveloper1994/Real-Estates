@@ -3,11 +3,10 @@ import { House } from '../../utils/types';
 
 interface Props {
   data: House;
-  houseId: number;
 }
 
 const HouseCard = (props: Props) => {
-  const { data, houseId } = props;
+  const { data } = props;
 
   const navigate = useNavigate();
 
@@ -19,17 +18,17 @@ const HouseCard = (props: Props) => {
     <div className="card-container">
       <div className="img-gradient">
         <div className="ubication-container">
-          <h4 className='ub-street'>#{ubicacion.direccion}</h4>
-          <h3 className='ub-hood'>{ubicacion.fraccionamiento}</h3>
-          <h5 className='ub-cp'>CP. {ubicacion.codigo_postal}</h5>
+          <h4 className="ub-street">#{ubicacion.direccion}</h4>
+          <h3 className="ub-hood">{ubicacion.fraccionamiento}</h3>
+          <h5 className="ub-cp">CP. {ubicacion.codigo_postal}</h5>
         </div>
         <div className="price-container">
-          <h2 className='price'>${precio}</h2>
-          <p className='card-summary'>
+          <h2 className="price">${precio}</h2>
+          <p className="card-summary">
             REC {recamaras} | BAÑ {baños_completos} | 1/2 BAÑ {baños_medios} | TR {terreno}
           </p>
         </div>
-        <button onClick={() => navigate(`/buy/${houseId}`)}>VER DETALLES +</button>
+        <button onClick={() => navigate(`/buy/${data.id}`)}>VER DETALLES +</button>
       </div>
       <img src={imagenes[0]} alt="Fachada_casa" />
     </div>

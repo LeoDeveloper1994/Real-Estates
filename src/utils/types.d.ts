@@ -20,6 +20,7 @@ interface Aditamentos {
 }
 
 export interface House {
+  id: string;
   ubicacion: Ubicacion;
   caracteristicas_principales: Caracteristicas_principales;
   caracteristicas_generales: string;
@@ -28,6 +29,7 @@ export interface House {
 }
 
 export const emptyHouse = {
+  id: '',
   ubicacion: {
     direccion: '',
     fraccionamiento: '',

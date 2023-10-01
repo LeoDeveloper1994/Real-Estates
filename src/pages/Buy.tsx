@@ -38,7 +38,7 @@ const Buy = () => {
         <div className="houses-card-container">
           {parcialList.map((house, index: number) => (
             <div key={index}>
-              <HouseCard data={house} houseId={index} />
+              <HouseCard data={house}/>
             </div>
           ))}
           <div className="pagination-container">

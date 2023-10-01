@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import footer_bg from '../../assets/footer_bg.jpg';
-import logo from '../../assets/vector-logo/logo-vector-100.png';
+import logo from '../../assets/firma 2.png';
 
 const Footer = () => {
   const navigate = useNavigate();

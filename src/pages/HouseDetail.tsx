@@ -6,13 +6,15 @@ import { houses } from '../db/HousesList';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 import GenericForm from '../components/forms/GenericForm';
+import { House } from '../utils/types';
 
 const HouseDetail = () => {
   const { id } = useParams();
 
   const navigate = useNavigate();
 
-  const [house, setHouse] = useState({
+  const [house, setHouse] = useState<House>({
+    id: '',
     ubicacion: {
       direccion: '',
       fraccionamiento: '',

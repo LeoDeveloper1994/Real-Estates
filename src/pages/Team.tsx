@@ -1,5 +1,5 @@
 import Layout from '../components/layout/Layout';
-import logo from '../assets/vector-logo/logo-vector-100.png';
+import logo from '../assets/firma 2.png';
 import { useNavigate } from 'react-router-dom';
 import { agents } from '../db/AgentsList';
 import { useState } from 'react';

@@ -1,6 +1,6 @@
 import GenericForm from '../components/forms/GenericForm';
 import Layout from '../components/layout/Layout';
-import logo from '../assets/vector-logo/logo-vector-100.png';
+import logo from '../assets/firma 2.png';
 
 const Investment = () => {
   return (
