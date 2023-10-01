@@ -1,3 +1,4 @@
+// HOUSE 1:
 interface Ubicacion {
   direccion: string;
   fraccionamiento: string;
@@ -51,3 +52,17 @@ export const emptyHouse = {
   },
   imagenes: [''],
 };
+
+// HOUSE 2:
+
+// AGENT 1:
+
+export interface Agent {
+  id: string;
+  agent_name: string;
+  email: string;
+  phone: string;
+  position: string;
+  quote: string;
+  agent_img: string;
+}

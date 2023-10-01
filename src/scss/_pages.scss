@@ -1121,6 +1121,191 @@
   }
 }
 
+// Agent detail:
+
+.ad-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .agent-detail-container{
+    width: 100%;
+    padding: 0px 20px 50px 20px;
+
+    .agent-img-container {
+      width: 100%;
+      height: 440px;
+      position: relative;
+
+      .ad-position {
+        width: 100%;
+        height: 50px;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--red-shadow)) ;
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          letter-spacing: 2px;
+          font-size: 1.2rem;
+          font-weight: 100;
+          margin: 0;
+          color: var(--white-base);
+        }
+      }
+
+      .agent-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-bottom: 32px;
+    padding: 0px 20px;
+    font-size: 3.8rem;
+    font-family: var(--review);
+    font-weight: 700;
+
+    span {
+      background: linear-gradient(to right, #000, var(--red-shadow));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      line-height: 50px;
+      margin-bottom: 32px;
+      font-size: 3.8rem;
+      font-family: var(--review);
+      font-weight: 700;
+    }
+  }
+
+  .ad-contact-container {
+    @include mix.insta-container(var(--black-base), var(--red-shadow), var(--black-base), var(--white-base));
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 30px 0px 30px 0px;
+
+    .ad-contact-title {
+      font-weight: 100;
+    }
+
+    .ad-contact-info {
+      font-weight: 700;
+      font-size: 1.3rem;
+      letter-spacing: 2px;
+    }
+  }
+
+  figcaption {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 0px 20px;
+  }
+
+  .ad-cto-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+      width: 250px;
+      @include mix.general-cto(var(--black-base), var(--red-shadow), var(--black-base))
+    }
+  }
+
+  .ad-img-container {
+    width: 325px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0)), url('../assets/building-agent.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .ad-logo-container {
+      height: 61px;
+      display: flex;
+      gap: 10px;
+
+      .logo-icon-container {
+        width: 61px;
+        height: 61px;
+        padding: 8px;
+        background-color: var(--red-shadow);
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .logo-name-container {
+        height: 61px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: var(--white-base);
+
+        .first-span {
+          font-size: 0.55rem;
+          letter-spacing: 2px;
+        }
+
+        .second-span {
+          font-size: 1rem;
+          letter-spacing: 2px
+        }
+
+        .tirth-span {
+          @extend .first-span;
+        }
+      }
+    }
+
+    hr {
+      width: 100%;
+      border: 1px solid var(--red-shadow);
+    }
+
+    .ad-quickly {
+      p {
+        color: var(--white-base);
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
 
 
 

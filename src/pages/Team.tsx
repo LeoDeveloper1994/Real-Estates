@@ -30,7 +30,7 @@ const Team = () => {
                 <h2 className="agent-name">{agent.agent_name}</h2>
                 <p className="agent-position">{agent.position}</p>
               </div>
-              <div className="view-agent-info" onClick={() => navigate(`/team/${index}`)}>
+              <div className="view-agent-info" onClick={() => navigate(`/team/${agent.id}`)}>
                 <p className="view-profile">VER PERFIL +</p>
               </div>
               <img src={agent.agent_img} alt="agent_img" className="agent-img" />
