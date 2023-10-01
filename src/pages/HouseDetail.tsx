@@ -122,22 +122,22 @@ const HouseDetail = () => {
               <span>CARACTERISTICAS</span>
             </h1>
             <div className="features-list">
-              <div className="features-general">
+              <div className={inVisible ? 'features-general-opened' : 'features-general'}>
                 <p className="f-title" onClick={() => setInvisible(!inVisible)}>
                   INTERIOR <span>{inVisible ? '-' : '+'}</span>
                 </p>
-                <p className={inVisible? 'features-detail-opened' : 'features-detail-closed'}>{house.aditamentos.interior}</p>
+                <p className="features-detail">{house.aditamentos.interior}</p>
               </div>
-              <div className="features-general">
+              <div className={outVisible ? 'features-general-opened' : 'features-general'}>
                 <p className="f-title" onClick={() => setOutVisible(!outVisible)}>
                   EXTERIOR <span>{outVisible ? '-' : '+'}</span>
                 </p>
-                <p className={outVisible? 'features-detail-opened' : 'features-detail-closed'}>{house.aditamentos.exterior}</p>
+                <p className="features-detail">{house.aditamentos.exterior}</p>
               </div>
             </div>
           </div>
-          <GenericForm />
         </div>
+        <GenericForm />
       </div>
     </Layout>
   );
