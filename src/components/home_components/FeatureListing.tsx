@@ -25,7 +25,7 @@ const FeatureListing = () => {
         }
         return prevIndex + 1;
       });
-    }, 550);
+    }, 500);
 
     setTimeout(() => {
       setHouseSecondIndex((prevIndex) => {
@@ -35,7 +35,7 @@ const FeatureListing = () => {
         return prevIndex + 1;
       });
       setActiveFrame(false);
-    }, 750);
+    }, 800);
   };
 
   return (
