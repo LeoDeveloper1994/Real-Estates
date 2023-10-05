@@ -1,0 +1,13 @@
+@keyframes housedash {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - 40px));
+  }
+}
+
+.frame {
+  animation: housedash 600ms ease-in-out;
+}

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import homeVideo from '../assets/The Umansky Team (1080p).mp4';
 import Layout from '../components/layout/Layout';
 import GenericForm from '../components/forms/GenericForm';
+import FeatureListing from '../components/home_components/FeatureListing';
 
 const Home = () => {
   const [audio, setAudio] = useState(false);
@@ -17,6 +18,7 @@ const Home = () => {
           <source src={homeVideo} type="video/mp4" />
         </video>
       </div>
+      <FeatureListing />
       <GenericForm />
     </Layout>
   );
