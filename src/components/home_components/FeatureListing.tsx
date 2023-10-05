@@ -35,7 +35,7 @@ const FeatureListing = () => {
         return prevIndex + 1;
       });
       setActiveFrame(false);
-    }, 600);
+    }, 750);
   };
 
   return (
