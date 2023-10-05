@@ -129,7 +129,12 @@ const FeatureListing = () => {
             <img src={secondListing[houseSecondIndex].imagenes[0]} alt="house_img" />
           </div>
         </div>
-        <button onClick={handleClick}>NEXT +</button>
+        <button onClick={handleClick} className="nxt-cto">
+          NEXT +
+        </button>
+        <button onClick={() => navigate('/buy')} className="nxt-cto">
+          LISTA COMPLETA +
+        </button>
       </div>
     </div>
   );

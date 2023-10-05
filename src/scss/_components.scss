@@ -818,8 +818,8 @@
       }
     }
 
-    button {
-      width: 150px;
+    .nxt-cto {
+      min-width: 179.13px;
       @include mix.general-cto(var(--black-base), var(--red-shadow), var(--black-base));
     }
   }
