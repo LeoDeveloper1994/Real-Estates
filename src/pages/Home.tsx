@@ -3,7 +3,7 @@ import { useState } from 'react';
 import homeVideo from '../assets/The Umansky Team (1080p).mp4';
 import Layout from '../components/layout/Layout';
 import GenericForm from '../components/forms/GenericForm';
-import FeatureListing from '../components/home_components/FeatureListing';
+import { AgentCard, FeatureListing, SocialHome } from '../components/home_components';
 
 const Home = () => {
   const [audio, setAudio] = useState(false);
@@ -19,6 +19,8 @@ const Home = () => {
         </video>
       </div>
       <FeatureListing />
+      <AgentCard />
+      <SocialHome />
       <GenericForm />
     </Layout>
   );

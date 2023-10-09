@@ -28,7 +28,7 @@ const Team = () => {
             <div key={index} className="agent-card-container">
               <div className="agent-info">
                 <h2 className="agent-name">{agent.agent_name}</h2>
-                <p className="agent-position">{agent.position}</p>
+                <p className="agent-position">- {agent.position}</p>
               </div>
               <div className="view-agent-info" onClick={() => navigate(`/team/${agent.id}`)}>
                 <p className="view-profile">VER PERFIL +</p>
