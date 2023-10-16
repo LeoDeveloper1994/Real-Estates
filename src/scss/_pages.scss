@@ -927,7 +927,8 @@
     padding: 20px;
 
     .summary-container {
-      width: 100%;
+      width: fit-content;
+      margin: auto;
       padding: 30px;
       display: flex;
       flex-direction: column;
@@ -1106,7 +1107,7 @@
             padding: 20px 15px;
             text-transform: uppercase;
             font-weight: 100;
-            font-size: 1.2rem;
+            font-size: 0.9rem;
           }
         }
 
@@ -1138,7 +1139,7 @@
             padding: 20px 15px;
             text-transform: uppercase;
             font-weight: 100;
-            font-size: 1.2rem;
+            font-size: 0.9rem;
           }
         }
       }

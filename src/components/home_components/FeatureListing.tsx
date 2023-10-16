@@ -131,7 +131,7 @@ const FeatureListing = () => {
         </div>
         <div className='cto-home-listing-container'>
           <button onClick={handleClick} className="nxt-cto">
-            NEXT +
+            SIGUIENTE +
           </button>
           <button onClick={() => navigate('/buy')} className="nxt-cto">
             LISTA COMPLETA +
