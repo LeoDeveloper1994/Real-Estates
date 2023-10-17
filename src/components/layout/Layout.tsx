@@ -33,6 +33,23 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <span></span>
             <span></span>
           </div>
+          <div className="menu-list">
+            <ul>
+              <li onClick={() => navigate('/buy')}>COMPRA</li>
+              <li onClick={() => navigate('/sell')}>VENDE</li>
+              <li onClick={() => navigate('/investment')}>INVIERTE</li>
+              <li onClick={() => navigate('/team')}>ALIADOS</li>
+              <li onClick={() => navigate('/socialmedia')}>REDES</li>
+              <li onClick={() => navigate('/about')}>NOSOTROS</li>
+              <li onClick={() => navigate('/contact')}>CONTACTO</li>
+            </ul>
+            <a href="https://www.youtube.com/@eyssautierresidencias8020" target="_blank">
+              <button>
+                <i className="fa-brands fa-youtube"></i>
+                SUSCRIBETE
+              </button>
+            </a>
+          </div>
         </nav>
       </header>
       <div className="workspace">

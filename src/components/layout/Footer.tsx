@@ -1,14 +1,17 @@
 import { useNavigate } from 'react-router-dom';
 import footer_bg from '../../assets/footer_bg.jpg';
+import footer_bg_large from '../../assets/footer_bg_large.jpg';
 import logo from '../../assets/firma 2.png';
+import useWindow from '../../hooks/useWindow';
 
 const Footer = () => {
   const navigate = useNavigate();
+  const { windowWidth } = useWindow();
 
   return (
     <div className="footer-container">
       <div className="footer-bg-container">
-        <img src={footer_bg} alt="footer_bg" />
+        <img src={windowWidth >= 775 ? footer_bg_large : footer_bg} alt="footer_bg" />
       </div>
       <div className="footer-info-container">
         <div className="footer-logo-container">
